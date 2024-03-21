@@ -2568,12 +2568,18 @@ body {
   position: relative;
 }
 
-.team__container {
-  padding-top: 10px;
+.team__container-special {
+  padding-top: 120px;
 }
 
 .four__screen-wrapper img {
   max-width: 576px;
+}
+
+.modal-container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 
 .main__screen {
@@ -2583,7 +2589,7 @@ body {
 }
 
 .main__screen h1 {
-  margin-top: 152px;
+  margin-top: 146px;
   font-family: "Montserrat", sans-serif;
   font-size: 54px;
   font-weight: 600;
@@ -4090,6 +4096,15 @@ a {
     font-size: 17px !important;
   }
 
+  #modal-container .modal-background .modal {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .modal-container {
+    padding: inherit;
+  }
+
   .modal__logo {
     left: 16px;
     top: -60px;
@@ -4099,6 +4114,10 @@ a {
   .closebtn {
     right: 16px;
     top: -60px;
+  }
+
+  .four__screen-wrapper img {
+    max-width: 326px;
   }
 
   .join__screen2 {
