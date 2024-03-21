@@ -2634,7 +2634,7 @@ body {
 
 .third__screen {
   margin-top: 240px;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 
 .third__screen img {
@@ -3223,7 +3223,7 @@ body {
 }
 
 .four__screen-wrapper-special {
-  margin-top: 200px;
+  margin-top: 170px;
   margin-bottom: 160px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
