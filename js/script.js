@@ -51,6 +51,8 @@ $('.closebtn').click(function(){
   $('body').removeClass('modal-active');
 });
 
+
+
 $(document).ready(function() {
   $(window).scroll(function() {
       $('.card').each(function() {
