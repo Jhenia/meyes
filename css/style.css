@@ -2747,7 +2747,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3174,7 +3174,7 @@ body {
 }
 
 .second__screen-wrapper {
-  padding-bottom: 180px;
+  padding-bottom: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
