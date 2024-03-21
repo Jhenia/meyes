@@ -116,3 +116,31 @@ $(document).ready(function() {
       lastScrollTop = st;
   });
 });
+// Отримуємо всі блоки контенту, до яких потрібно додати клас
+const contentBlocks = document.querySelectorAll('.container_motion');
+
+// Функція, яка перевіряє, чи елемент на екрані
+function isElementInViewport(el) {
+  const rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom -400 <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+// Функція, яка додає клас, якщо елемент на екрані
+function addClassIfVisible() {
+  contentBlocks.forEach((block) => {
+    if (isElementInViewport(block)) {
+      block.classList.add('show_content');
+    }
+  });
+}
+
+// Додаємо подію прокрутки сторінки
+window.addEventListener('scroll', () => {
+  // Викликаємо функцію, яка додає клас, якщо елемент на екрані
+  addClassIfVisible();
+});
