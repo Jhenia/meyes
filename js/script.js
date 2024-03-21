@@ -125,7 +125,7 @@ function isElementInViewport(el) {
   return (
     rect.top >= 0 &&
     rect.left >= 0 &&
-    rect.bottom -400 <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.bottom -300 <= (window.innerHeight || document.documentElement.clientHeight) &&
     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
   );
 }
