@@ -3222,6 +3222,16 @@ body {
   gap: 50px;
 }
 
+.swiper-slide-wrapper a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.swiper-slide-wrapper a img {
+  max-width: 24px;
+}
+
 .four__screen-wrapper-special {
   margin-top: 170px;
   margin-bottom: 160px;
