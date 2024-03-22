@@ -2,12 +2,15 @@
       let header__burger = document.querySelector('.burger');
         let header_menu = document.querySelector('.header__menu');
         let back = document.querySelector('body');
-
+       let header = document.querySelector('.header');
+       let menu_list = document.querySelector('.menu');
 
         header__burger.onclick = function(){
             header__burger.classList.toggle('active');
             header_menu.classList.toggle('active');
             back.classList.toggle('locked');
+            header.classList.toggle('active_header');
+            menu_list.classList.toggle('active_menu');
         }
 //Header burger   
 $(document).ready(function() {
