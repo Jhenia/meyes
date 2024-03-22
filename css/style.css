@@ -2615,6 +2615,21 @@ body {
   color: rgba(0, 0, 0, 0.8);
 }
 
+.swiper-slide-wrapper h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.team__wrap .text-default__title {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.swiper__flex-text .subtitle_main {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .subtitle_main {
   color: rgba(0, 0, 0, 0.8);
   font-size: 20px;
@@ -2813,7 +2828,8 @@ body {
 
 .swiper-slide2 h2 {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
+  text-transform: uppercase;
   line-height: 29px;
   margin-bottom: 16px;
   color: #000;
@@ -2909,8 +2925,9 @@ body {
 }
 
 .contact p {
+  text-transform: uppercase;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 29px;
   color: #000;
 }
@@ -3976,7 +3993,7 @@ a {
 
   .contact p {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 22px;
   }
 
@@ -4364,8 +4381,12 @@ a {
     margin-top: 42px;
   }
 
+  .four__screen {
+    margin-top: 100px;
+  }
+
   .my-container-team {
-    padding: 80px 16px 130px 16px;
+    padding: 163px 16px 130px 16px;
   }
 
   .swiper-pagination {
@@ -4378,7 +4399,7 @@ a {
   }
 
   .how h2 {
-    margin-top: 0;
+    margin-top: 110px;
     margin-bottom: 70px;
   }
 
