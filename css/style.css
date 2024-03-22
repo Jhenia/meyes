@@ -3368,7 +3368,7 @@ body {
 }
 
 .footer {
-  padding-top: 58px;
+  padding-top: 78px;
   padding-bottom: 24px;
   background: url("../img/footer__bg.png");
   background-repeat: no-repeat;
@@ -3386,14 +3386,18 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 42px;
+  gap: 32px;
 }
 
 .footer__wrap a {
   display: block;
-  padding: 26px;
-  border-radius: 100%;
-  background: #F4F5F2;
+  width: 40px;
+  height: 40px;
+}
+
+.footer__wrap a img {
+  width: 40px;
+  height: 40px;
 }
 
 .footer__wrap p {
@@ -3406,16 +3410,50 @@ body {
   font-family: "Gilroy-Regular", sans-serif;
 }
 
+.footer__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .footer__title {
-  margin-bottom: 42px;
+  margin-bottom: 24px;
   line-height: 29px;
   font-size: 24px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.6);
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.footer__privacy {
+  text-align: left;
+}
+
+.footer__privacy_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.footer__privacy_btn a {
+  text-transform: initial;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: "Gilroy-Regular", sans-serif;
+  color: #000;
 }
 
 .footer__copyrating {
@@ -3426,6 +3464,85 @@ body {
   font-weight: 400;
   text-align: center;
   margin-top: 42px;
+}
+
+.privacy {
+  padding-top: 153px;
+}
+
+.privacy__description {
+  margin-bottom: 70px;
+}
+
+.privacy__description h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 39.6px;
+  color: #000000;
+}
+
+.privacy__description h4 {
+  color: #000000;
+  line-height: 29.76px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.privacy__description p {
+  margin-top: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+
+.privacy__description p a {
+  color: #000000;
+  text-decoration: underline;
+  line-height: 28px;
+  font-family: "Gilroy-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.privacy__description ul {
+  padding-left: 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.privacy__description ul li {
+  padding-left: 35px;
+  position: relative;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 20px;
+}
+
+.mt-32 {
+  margin-top: 32px !important;
+}
+
+.footer__container {
+  margin-right: 178px;
+}
+
+.privacy ul li::before {
+  position: absolute;
+  content: "";
+  /* Додаємо псевдоелемент для кожного елемента li */
+  display: inline-block;
+  border-radius: 50%;
+  /* Створюємо круглий кружочок */
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Задаємо колір кружочка */
+  margin-right: 5px;
+  /* Задаємо відступ між кружочками */
+  width: 6px;
+  top: 10px;
+  height: 6px;
+  left: 10px;
 }
 
 *,
@@ -3761,6 +3878,54 @@ a {
 }
 
 @media only screen and (max-width: 767px) {
+  .footer__container {
+    margin-right: 0;
+  }
+
+  .footer__privacy_btn a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .footer__box {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    gap: 26px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .privacy {
+    padding-top: 113px;
+  }
+
+  .privacy h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .privacy p {
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .privacy .mt-32 {
+    margin-top: 24px !important;
+  }
+
+  .privacy ul li {
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .privacy a {
+    font-size: 17px;
+    line-height: 23px;
+  }
+
   .my-container2 .my-wrapper {
     padding: 0;
   }
@@ -4042,7 +4207,10 @@ a {
   }
 
   .footer__wrapper {
-    gap: 20px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 32px;
   }
 
   .footer__copyrating {
