@@ -118,7 +118,7 @@ body.locked {
 
 @font-face {
   font-family: "Gilroy-Regular";
-  src: url("../fonts/gilroy-regular.ttf") format("truetype");
+  src: url("../fonts/Gilroy-Regular2.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -321,10 +321,10 @@ header:before {
 .first__item p {
   margin-top: 20px;
   font-weight: 400;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.6);
   font-family: "Gilroy-Regular", sans-serif;
   font-size: 20px;
-  line-height: 24.6px;
+  line-height: 28px;
 }
 
 .first__item img {
@@ -1547,7 +1547,6 @@ header:before {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   left: 50%;
-  max-width: 1440px;
 }
 
 .second_bg2 {
@@ -1563,7 +1562,6 @@ header:before {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   left: 50%;
-  max-width: 1440px;
 }
 
 .swiper-slide3 .swiper-slide-wrapper {
@@ -1677,8 +1675,8 @@ header:before {
   font-family: "Gilroy-Regular", sans-serif;
   font-size: 20px;
   font-weight: 400;
-  line-height: 26px;
-  color: rgba(0, 0, 0, 0.8);
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .how__wrapper {
@@ -1797,8 +1795,8 @@ header:before {
 
 .how__item p {
   font-size: 20px;
-  line-height: 26px;
-  color: rgba(0, 0, 0, 0.8);
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.6);
   font-weight: 400;
   font-family: "Gilroy-Regular", sans-serif;
 }
@@ -1936,7 +1934,7 @@ a.active ~ .default__subtitle {
 }
 
 .team__wrap p {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.6);
   margin-top: 16px !important;
   text-align: left !important;
 }
@@ -1965,7 +1963,7 @@ a.active ~ .default__subtitle {
 }
 
 .team__subtitle {
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .swiper-container {
@@ -2139,7 +2137,7 @@ a.active ~ .default__subtitle {
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
-  color: #A4AB9B;
+  color: #000;
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
@@ -2147,13 +2145,15 @@ a.active ~ .default__subtitle {
 }
 
 .swiper-slide-wrapper p {
-  color: #000;
+  color: rgba(0, 0, 0, 0.6);
   margin-top: 16px;
+  font-size: 20px;
+  line-height: 28px;
   text-align: justify !important;
 }
 
 .swiper-slide-subtitle {
-  color: rgba(0, 0, 0, 0.6) !important;
+  color: rgba(0, 0, 0, 0.8) !important;
   margin-top: 10px !important;
 }
 
@@ -2409,7 +2409,7 @@ a.active ~ .default__subtitle {
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 0;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.6);
   font-weight: 500;
   font-size: 24px;
   line-height: 30px;
@@ -2435,7 +2435,7 @@ a.active ~ .default__subtitle {
 
 .enc p {
   text-align: center;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.6);
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   line-height: 29px;
@@ -2644,9 +2644,9 @@ body {
 }
 
 .subtitle_main {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.6);
   font-size: 20px;
-  line-height: 26px;
+  line-height: 28px;
   font-weight: 400;
   font-family: "Gilroy-Regular", sans-serif;
 }
@@ -2822,8 +2822,8 @@ body {
   font-family: "Gilroy-Regular", sans-serif;
   font-size: 20px;
   font-weight: 400;
-  line-height: 26.6px;
-  color: rgba(0, 0, 0, 0.8);
+  line-height: 140%;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .default__btn {
@@ -2831,7 +2831,7 @@ body {
 }
 
 .main__screen-special {
-  margin-top: 10px !important;
+  margin-top: 14px !important;
 }
 
 .main__screen-special span {
@@ -2849,8 +2849,8 @@ body {
 }
 
 .swiper-slide2 p {
-  color: rgba(0, 0, 0, 0.8);
-  line-height: 26px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 140%;
   font-size: 20px;
   font-weight: 400;
   font-family: "Gilroy-Regular", sans-serif;
@@ -2881,8 +2881,9 @@ body {
   max-width: 481px;
   margin: 0 auto;
   text-align: center;
+  color: rgba(0, 0, 0, 0.6);
   font-size: 20px;
-  line-height: 26px;
+  line-height: 28px;
   font-weight: 400;
   font-family: "Gilroy-Regular", sans-serif;
 }
@@ -2942,7 +2943,7 @@ body {
   font-size: 24px;
   font-weight: 600;
   line-height: 29px;
-  color: #000;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .form {
@@ -3070,7 +3071,7 @@ body {
   background: #fff;
   border-radius: 20px;
   color: #000;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-family: "Gilroy-Regular", sans-serif;
   line-height: 21.6px;
@@ -3088,7 +3089,7 @@ body {
 }
 
 .form__box textarea::-moz-placeholder {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-family: "Gilroy-Regular", sans-serif;
   line-height: 21.6px;
@@ -3096,7 +3097,7 @@ body {
 }
 
 .form__box textarea:-ms-input-placeholder {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-family: "Gilroy-Regular", sans-serif;
   line-height: 21.6px;
@@ -3104,7 +3105,7 @@ body {
 }
 
 .form__box textarea::-webkit-input-placeholder {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-family: "Gilroy-Regular", sans-serif;
   line-height: 21.6px;
@@ -3112,7 +3113,7 @@ body {
 }
 
 .form__box textarea::-ms-input-placeholder {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-family: "Gilroy-Regular", sans-serif;
   line-height: 21.6px;
@@ -3120,7 +3121,7 @@ body {
 }
 
 .form__box textarea::placeholder {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-family: "Gilroy-Regular", sans-serif;
   line-height: 21.6px;
@@ -3186,7 +3187,7 @@ body {
 
 .modal p {
   max-width: 600px;
-  color: #000000;
+  color: #000;
   text-align: left;
   font-size: 36px;
   font-weight: 600;
@@ -3196,7 +3197,7 @@ body {
 
 .modal__last-subtitle {
   margin-top: 32px;
-  color: #000;
+  color: rgba(0, 0, 0, 0.6);
   font-family: "Gilroy-Regular", sans-serif !important;
   line-height: 26px !important;
   font-size: 20px !important;
@@ -3433,6 +3434,12 @@ a {
   .modal {
     overflow-y: auto;
     max-height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 1449px) {
+  .third__screen-item2 {
+    right: -100px;
   }
 }
 
