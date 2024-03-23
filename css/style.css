@@ -2944,6 +2944,10 @@ body {
   padding: 52px 52px;
 }
 
+.blog .default__subtitle {
+  font-family: "Montserrat", sans-serif !important;
+}
+
 .join__screen-wrapper {
   max-width: 890px;
   margin: 0 auto;
