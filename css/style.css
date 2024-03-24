@@ -377,7 +377,7 @@ header:before {
 }
 
 .first {
-  margin-bottom: 102px;
+  margin-bottom: 120px;
 }
 
 .first__items {
@@ -2073,7 +2073,7 @@ a.active ~ .default__subtitle {
 }
 
 .swiper-slide-container {
-  min-height: 420px;
+  min-height: 440px;
 }
 
 .my-container {
@@ -2470,8 +2470,8 @@ a.active ~ .default__subtitle {
 }
 
 .team__form-wrapper {
-  padding-bottom: 110px;
-  margin-top: 70px;
+  padding-bottom: 90px;
+  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2525,7 +2525,7 @@ a.active ~ .default__subtitle {
 
 .blog {
   margin-top: 123px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .blog__wrapper {
@@ -2611,7 +2611,7 @@ body {
 }
 
 .blog__section .blog__section-wrap {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .blog__section-wrap {
@@ -2742,7 +2742,7 @@ body {
 
 .third__screen {
   margin-top: 240px;
-  margin-bottom: 10px;
+  margin-bottom: 80px;
 }
 
 .third__screen img {
@@ -2783,7 +2783,7 @@ body {
 .third__screen-items {
   position: relative;
   width: 100%;
-  height: 590px;
+  height: 470px;
 }
 
 .third__screen-item1 {
@@ -2984,8 +2984,8 @@ body {
 }
 
 .join__screen {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 
 .swiper__flex {
@@ -3003,7 +3003,7 @@ body {
 }
 
 .contact {
-  padding: 110px 0px;
+  padding: 80px 0px;
   background: #F4F5F2;
   margin-bottom: 0px;
 }
@@ -3289,12 +3289,12 @@ body {
 }
 
 .second__screen-wrapper {
-  padding-bottom: 130px;
+  padding-bottom: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 141px;
-  margin-top: 110px;
+  margin-top: 100px;
 }
 
 .second__screen-wrapper img {
@@ -3348,8 +3348,8 @@ body {
 }
 
 .four__screen-wrapper-special {
-  margin-top: 140px;
-  margin-bottom: 100px;
+  margin-top: 120px;
+  margin-bottom: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -3538,6 +3538,11 @@ body {
   top: 10px;
   height: 6px;
   left: 10px;
+}
+
+.my-container2 {
+  padding-bottom: 40px;
+  padding-top: 70px;
 }
 
 *,
