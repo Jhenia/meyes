@@ -3959,7 +3959,7 @@ a {
   }
 
   .card-container {
-    height: 1139px;
+    height: auto;
     margin-top: 30px;
   }
 
