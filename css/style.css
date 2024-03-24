@@ -406,7 +406,6 @@ header:before {
   margin-top: 20px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.6);
-  font-family: "Gilroy-Regular", sans-serif;
   font-size: 20px;
   line-height: 28px;
 }
@@ -1756,7 +1755,6 @@ header:before {
 
 .default__subtitle {
   margin-top: 32px;
-  font-family: "Gilroy-Regular", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -1882,7 +1880,6 @@ header:before {
   line-height: 28px;
   color: rgba(0, 0, 0, 0.6);
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
 }
 
 .faq__wrapper {
@@ -2081,7 +2078,7 @@ a.active ~ .default__subtitle {
 
 .my-container {
   overflow: hidden;
-  padding: 90px 0;
+  padding: 70px 0;
   margin: auto;
 }
 
@@ -2732,7 +2729,6 @@ body {
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
 }
 
 .second__screen {
@@ -2776,7 +2772,6 @@ body {
   line-height: 26px;
   font-size: 20px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
 }
 
 .third__screeen-wrapper {
@@ -2903,7 +2898,6 @@ body {
 .main__screen-wrap p {
   max-width: 510px;
   margin-top: 30px;
-  font-family: "Gilroy-Regular", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 140%;
@@ -2937,7 +2931,6 @@ body {
   line-height: 140%;
   font-size: 20px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
 }
 
 .swiper-slide2 .swiper-slide-wrapper {
@@ -2973,7 +2966,6 @@ body {
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
 }
 
 .join__screen-wrapper a {
@@ -3099,7 +3091,7 @@ body {
   color: #000;
   font-size: 20px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 26.6px;
   -webkit-transition: 0.2s ease-out;
   -o-transition: 0.2s ease-out;
@@ -3110,7 +3102,7 @@ body {
 .form__box input::-moz-placeholder {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 26.6px;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -3118,7 +3110,7 @@ body {
 .form__box input:-ms-input-placeholder {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 26.6px;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -3126,7 +3118,7 @@ body {
 .form__box input::-webkit-input-placeholder {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 26.6px;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -3134,7 +3126,7 @@ body {
 .form__box input::-ms-input-placeholder {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 26.6px;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -3142,7 +3134,7 @@ body {
 .form__box input::placeholder {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 26.6px;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -3165,7 +3157,7 @@ body {
   color: #000;
   font-size: 20px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 21.6px;
   -webkit-transition: 0.2s ease-out;
   -o-transition: 0.2s ease-out;
@@ -3183,7 +3175,7 @@ body {
 .form__box textarea::-moz-placeholder {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 21.6px;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -3191,7 +3183,7 @@ body {
 .form__box textarea:-ms-input-placeholder {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 21.6px;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -3199,7 +3191,7 @@ body {
 .form__box textarea::-webkit-input-placeholder {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 21.6px;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -3207,7 +3199,7 @@ body {
 .form__box textarea::-ms-input-placeholder {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 21.6px;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -3215,7 +3207,7 @@ body {
 .form__box textarea::placeholder {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 21.6px;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -3460,7 +3452,6 @@ body {
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
   color: #000;
 }
 
@@ -3468,7 +3459,6 @@ body {
   font-size: 20px;
   line-height: 26px;
   color: rgba(0, 0, 0, 0.6);
-  font-family: "Gilroy-Regular", sans-serif;
   font-weight: 400;
   text-align: center;
   margin-top: 42px;
@@ -3502,14 +3492,12 @@ body {
   color: rgba(0, 0, 0, 0.6);
   font-size: 20px;
   line-height: 28px;
-  font-family: "Gilroy-Regular", sans-serif;
 }
 
 .privacy__description p a {
   color: #000000;
   text-decoration: underline;
   line-height: 28px;
-  font-family: "Gilroy-Regular", sans-serif;
   font-weight: 400;
   font-size: 20px;
 }
@@ -3524,7 +3512,6 @@ body {
   position: relative;
   line-height: 28px;
   font-weight: 400;
-  font-family: "Gilroy-Regular", sans-serif;
   font-size: 20px;
 }
 
@@ -3592,7 +3579,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   font-optical-sizing: auto;
   font-style: normal;
 }
