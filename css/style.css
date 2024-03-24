@@ -3410,6 +3410,10 @@ body {
   font-family: "Gilroy-Regular", sans-serif;
 }
 
+.blog__section5 {
+  margin-bottom: 50px;
+}
+
 .footer__box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4717,13 +4721,15 @@ a {
   }
 
   .how h2 {
-    margin-top: 110px;
+    margin-top: 180px;
     margin-bottom: 70px;
   }
 
   .card-container2 {
     margin-top: 112px !important;
-    height: 1769px !important;
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
   }
 
   .product__anim {
@@ -4747,7 +4753,7 @@ a {
   }
 
   .how__container2-item .how__item {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     padding: 0;
     border-radius: 0;
     margin-top: 32px;
