@@ -1774,7 +1774,7 @@ header:before {
 }
 
 .faq {
-  margin-bottom: 90px;
+  margin-bottom: 60px;
 }
 
 .faq h2 {
@@ -1783,7 +1783,7 @@ header:before {
 }
 
 .join__screen2 {
-  margin-bottom: 70px;
+  margin-bottom: 80px;
 }
 
 .join__screen2 h2 {
@@ -3368,7 +3368,7 @@ body {
 }
 
 .footer {
-  padding-top: 30px;
+  padding-top: 0px;
   padding-bottom: 24px;
   background: url("../img/footer__bg.png");
   background-repeat: no-repeat;
@@ -3411,7 +3411,7 @@ body {
 }
 
 .blog__section5 {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .footer__box {
