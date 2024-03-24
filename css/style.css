@@ -377,7 +377,7 @@ header:before {
 }
 
 .first {
-  margin-bottom: 120px;
+  margin-bottom: 40px;
 }
 
 .first__items {
@@ -1700,7 +1700,7 @@ header:before {
       -ms-flex-align: center;
           align-items: center;
   margin-left: 160px;
-  margin-bottom: 90px;
+  margin-bottom: 60px;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
@@ -4454,7 +4454,7 @@ a {
   }
 
   .join__screen2 {
-    margin-bottom: 45px;
+    margin-bottom: 50px;
   }
 
   .join__screen-wrapper a {
