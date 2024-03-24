@@ -2742,7 +2742,7 @@ body {
 
 .third__screen {
   margin-top: 240px;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 
 .third__screen img {
@@ -3294,7 +3294,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 141px;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .second__screen-wrapper img {
@@ -3348,7 +3348,7 @@ body {
 }
 
 .four__screen-wrapper-special {
-  margin-top: 120px;
+  margin-top: 70px;
   margin-bottom: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -3368,7 +3368,7 @@ body {
 }
 
 .footer {
-  padding-top: 38px;
+  padding-top: 30px;
   padding-bottom: 24px;
   background: url("../img/footer__bg.png");
   background-repeat: no-repeat;
