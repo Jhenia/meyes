@@ -3640,16 +3640,7 @@ a {
 }
 
 @media only screen and (min-width: 1600px) {
-  .main_screen-bg1 {
-    background: url("../img/desk3.png");
-  }
-
-  .main_screen-bg2 {
-    background: url("../img/desk2.png");
-  }
-
   .second_bg {
-    background: url("../img/desk1.png");
     top: 270px;
     left: auto !important;
     -webkit-transform: none;
@@ -3659,7 +3650,6 @@ a {
   }
 
   .second_bg2 {
-    background: url("../img/desk2.png");
     left: auto !important;
     -webkit-transform: none;
         -ms-transform: none;
@@ -3669,11 +3659,6 @@ a {
 
   .blog__bg1 {
     top: 360px;
-    background: url("../img/desk1.png");
-  }
-
-  .blog__bg2 {
-    background: url("../img/desk2.png");
   }
 }
 
@@ -4105,8 +4090,8 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-bottom: 60px;
-    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-top: 30px;
   }
 
   .main__screen h1 {
@@ -4143,7 +4128,7 @@ a {
   }
 
   .my-container {
-    padding: 80px 16px;
+    padding: 60px 16px;
   }
 
   .swiper-slide-subtitle {
@@ -4220,7 +4205,7 @@ a {
   }
 
   .contact {
-    padding: 80px 0px;
+    padding: 60px 0px;
     margin-bottom: 0;
   }
 
@@ -4318,8 +4303,8 @@ a {
   }
 
   .default__title {
-    font-size: 27px;
-    line-height: 32.32px;
+    font-size: 24px;
+    line-height: 32px;
   }
 
   .swiper__flex-btns {
@@ -4342,7 +4327,7 @@ a {
   .third__screen-items {
     height: 760px;
     margin-bottom: 70px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
   .subtitle_main {
@@ -4378,9 +4363,9 @@ a {
   }
 
   .title_main {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 32px;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
   }
 
   .third__screen-item1 {
@@ -4456,7 +4441,7 @@ a {
   }
 
   .four__screen-wrapper {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 
   .join__screen2 {
@@ -4496,13 +4481,13 @@ a {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
     margin-top: 0;
-    gap: 50px;
-    padding-bottom: 70px;
+    gap: 40px;
+    padding-bottom: 50px;
   }
 
   .second__screen-wrapper img {
-    min-width: 308px;
-    max-width: 308px;
+    min-width: 276px;
+    max-width: 276px;
   }
 
   .header .header__menu ul {
@@ -4515,8 +4500,8 @@ a {
   }
 
   .main__screen-wrap img {
-    margin-top: 70px !important;
-    max-width: 245px;
+    margin-top: 60px !important;
+    max-width: 215px;
     margin: 0 auto;
   }
 
@@ -4530,7 +4515,7 @@ a {
   }
 
   .four__screen-wrapper-special {
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 0px;
   }
 
@@ -4702,7 +4687,7 @@ a {
   }
 
   .four__screen {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 
   .my-container-team {
@@ -5388,33 +5373,3 @@ a {
 .webp .main_screen-bg2{ background: url(../img/19i.webp); }
 
 .webp .footer{ background: url(../img/footer__bg.webp); }
-
-@media only screen and (min-width: 1600px){
-
-  .webp .main_screen-bg1{ background: url(../img/desk3.webp); }
-}
-
-@media only screen and (min-width: 1600px){
-
-  .webp .main_screen-bg2{ background: url(../img/desk2.webp); }
-}
-
-@media only screen and (min-width: 1600px){
-
-  .webp .second_bg{ background: url(../img/desk1.webp); }
-}
-
-@media only screen and (min-width: 1600px){
-
-  .webp .second_bg2{ background: url(../img/desk2.webp); }
-}
-
-@media only screen and (min-width: 1600px){
-
-  .webp .blog__bg1{ background: url(../img/desk1.webp); }
-}
-
-@media only screen and (min-width: 1600px){
-
-  .webp .blog__bg2{ background: url(../img/desk2.webp); }
-}
