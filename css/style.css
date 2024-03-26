@@ -1262,309 +1262,15 @@ header:before {
   }
 }
 
-#modal-container {
-  position: fixed;
-  display: table;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
-  z-index: 40;
-}
-
-#modal-container.one {
-  -webkit-transform: scaleY(0.01) scaleX(0);
-      -ms-transform: scaleY(0.01) scaleX(0);
-          transform: scaleY(0.01) scaleX(0);
-  -webkit-animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.one .modal-background .modal {
-  -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
-  -webkit-animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.one.out {
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
-  -webkit-animation: unfoldOut 1s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: unfoldOut 1s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.one.out .modal-background .modal {
-  -webkit-animation: zoomOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: zoomOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.two {
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
-}
-
-#modal-container.two .modal-background {
-  background: #F4F5F2 !important;
-  -webkit-animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.two .modal-background .modal {
-  opacity: 0;
-  -webkit-animation: scaleUp 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: scaleUp 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.two + .content {
-  -webkit-animation: scaleBack 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: scaleBack 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.two.out {
-  -webkit-animation: quickScaleDown 0s 0.5s linear forwards;
-  animation: quickScaleDown 0s 0.5s linear forwards;
-}
-
-#modal-container.two.out .modal-background {
-  -webkit-animation: fadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: fadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.two.out .modal-background .modal {
-  -webkit-animation: scaleDown 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: scaleDown 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.two.out + .content {
-  -webkit-animation: scaleForward 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: scaleForward 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.three {
-  z-index: 0;
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
-}
-
-#modal-container.three .modal-background {
-  background: rgba(0, 0, 0, 0.6);
-}
-
-#modal-container.three .modal-background .modal {
-  -webkit-animation: moveUp 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: moveUp 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.three + .content {
-  z-index: 1;
-  -webkit-animation: slideUpLarge 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: slideUpLarge 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.three.out .modal-background .modal {
-  -webkit-animation: moveDown 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: moveDown 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.three.out + .content {
-  -webkit-animation: slideDownLarge 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: slideDownLarge 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.four {
-  z-index: 0;
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
-}
-
-#modal-container.four .modal-background {
-  background: rgba(0, 0, 0, 0.7);
-}
-
-#modal-container.four .modal-background .modal {
-  -webkit-animation: blowUpModal 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: blowUpModal 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.four + .content {
-  z-index: 1;
-  -webkit-animation: blowUpContent 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: blowUpContent 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.four.out .modal-background .modal {
-  -webkit-animation: blowUpModalTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: blowUpModalTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.four.out + .content {
-  -webkit-animation: blowUpContentTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: blowUpContentTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.five {
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
-}
-
-#modal-container.five .modal-background {
-  background: rgba(0, 0, 0, 0);
-  -webkit-animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.five .modal-background .modal {
-  -webkit-transform: translateX(-1500px);
-      -ms-transform: translateX(-1500px);
-          transform: translateX(-1500px);
-  -webkit-animation: roadRunnerIn 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: roadRunnerIn 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.five.out {
-  -webkit-animation: quickScaleDown 0s 0.5s linear forwards;
-  animation: quickScaleDown 0s 0.5s linear forwards;
-}
-
-#modal-container.five.out .modal-background {
-  -webkit-animation: fadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: fadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.five.out .modal-background .modal {
-  -webkit-animation: roadRunnerOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: roadRunnerOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.six {
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
-}
-
-#modal-container.six .modal-background {
-  background: rgba(0, 0, 0, 0);
-  -webkit-animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.six .modal-background .modal {
-  background-color: transparent;
-  -webkit-animation: modalFadeIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: modalFadeIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.six .modal-background .modal h2,
-#modal-container.six .modal-background .modal p {
-  opacity: 0;
-  position: relative;
-  -webkit-animation: modalContentFadeIn 0.5s 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: modalContentFadeIn 0.5s 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.six .modal-background .modal .modal-svg rect {
-  -webkit-animation: sketchIn 0.5s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: sketchIn 0.5s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.six.out {
-  -webkit-animation: quickScaleDown 0s 0.5s linear forwards;
-  animation: quickScaleDown 0s 0.5s linear forwards;
-}
-
-#modal-container.six.out .modal-background {
-  -webkit-animation: fadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: fadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.six.out .modal-background .modal {
-  -webkit-animation: modalFadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: modalFadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.six.out .modal-background .modal h2,
-#modal-container.six.out .modal-background .modal p {
-  -webkit-animation: modalContentFadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: modalContentFadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.six.out .modal-background .modal .modal-svg rect {
-  -webkit-animation: sketchOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: sketchOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.seven {
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
-}
-
-#modal-container.seven .modal-background {
-  background: rgba(0, 0, 0, 0);
-  -webkit-animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.seven .modal-background .modal {
-  height: 75px;
-  width: 75px;
-  border-radius: 75px;
-  overflow: hidden;
-  -webkit-animation: bondJamesBond 1.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: bondJamesBond 1.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.seven .modal-background .modal h2,
-#modal-container.seven .modal-background .modal p {
-  opacity: 0;
-  position: relative;
-  -webkit-animation: modalContentFadeIn 0.5s 1.4s linear forwards;
-  animation: modalContentFadeIn 0.5s 1.4s linear forwards;
-}
-
-#modal-container.seven.out {
-  -webkit-animation: slowFade 0.5s 1.5s linear forwards;
-  animation: slowFade 0.5s 1.5s linear forwards;
-}
-
-#modal-container.seven.out .modal-background {
-  background-color: rgba(0, 0, 0, 0.7);
-  -webkit-animation: fadeToRed 2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: fadeToRed 2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.seven.out .modal-background .modal {
-  border-radius: 3px;
-  height: 162px;
-  width: 227px;
-  -webkit-animation: killShot 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: killShot 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
-#modal-container.seven.out .modal-background .modal h2,
-#modal-container.seven.out .modal-background .modal p {
-  -webkit-animation: modalContentFadeOut 0.5s 0.5 cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation: modalContentFadeOut 0.5s 0.5 cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-
 #modal-container .modal-background {
-  display: table-cell;
-  background-color: #F4F5F2 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-align: center;
 }
 
 #modal-container .modal-background .modal {
-  padding: 80px 0px;
+  padding: 45px 0px 60px 0px;
   border-radius: 3px;
   font-weight: 300;
   position: relative;
@@ -2642,17 +2348,6 @@ body {
   overflow: hidden;
 }
 
-#modal-container::before {
-  content: "";
-  position: absolute;
-  background: url("../img/footer__bg.png");
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat !important;
-  background-size: contain;
-  background-position-y: bottom;
-}
-
 .modal {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2843,10 +2538,6 @@ body {
 .blog {
   padding-top: 180px;
   margin-top: 0;
-}
-
-#modal-container {
-  z-index: 4000 !important;
 }
 
 .main__screen-wrapper {
@@ -3255,7 +2946,7 @@ body {
 }
 
 .modal {
-  margin-top: 70px;
+  margin-top: 190px;
 }
 
 .modal h2 {
@@ -3625,21 +3316,6 @@ a {
 
 .active__link {
   color: #FFA384 !important;
-}
-
-@media screen and (min-width: 1440px) and (min-height: 680px) {
-  .modal-text {
-    padding-top: 650px;
-  }
-
-  .form__special {
-    padding-bottom: 60px;
-  }
-
-  .modal {
-    overflow-y: auto;
-    max-height: 100vh;
-  }
 }
 
 @media only screen and (min-width: 1449px) {
@@ -4408,6 +4084,7 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 30px 0px;
+    margin-top: 70px;
   }
 
   .modal h2 {
@@ -4423,11 +4100,6 @@ a {
   .modal__last-subtitle {
     line-height: 23px !important;
     font-size: 17px !important;
-  }
-
-  #modal-container .modal-background .modal {
-    padding-left: 16px;
-    padding-right: 16px;
   }
 
   .modal-container {
@@ -5210,150 +4882,14 @@ a {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 2000px) {
-  .modal-text {
-    padding-top: 20px !important;
-  }
-
   .form__special {
-    padding-bottom: 60px;
+    padding-bottom: 20px;
   }
 }
 
 @media only screen and (min-width: 700px) and (max-width: 1024px) {
   #modal-container .modal-background {
     background: inherit;
-  }
-}
-
-@media only screen and (min-height: 320px) and (max-height: 560px) {
-  .modal-text {
-    padding-top: 650px;
-  }
-
-  .form__special {
-    padding-bottom: 60px;
-  }
-
-  .modal {
-    overflow-y: auto;
-    max-height: 100vh;
-  }
-}
-
-@media only screen and (min-height: 561px) and (max-height: 650px) {
-  .modal-text {
-    padding-top: 360px;
-  }
-
-  .form__special {
-    padding-bottom: 60px;
-  }
-
-  .modal {
-    overflow-y: auto;
-    max-height: 100vh;
-  }
-}
-
-@media only screen and (min-height: 651px) and (max-height: 750px) {
-  .modal-text {
-    padding-top: 330px;
-  }
-
-  .form__special {
-    padding-bottom: 60px;
-  }
-
-  .modal {
-    overflow-y: auto;
-    max-height: 100vh;
-  }
-}
-
-@media only screen and (min-height: 751px) and (max-height: 800px) {
-  .modal-text {
-    padding-top: 280px;
-  }
-
-  .form__special {
-    padding-bottom: 60px;
-  }
-
-  .modal {
-    overflow-y: auto;
-    max-height: 100vh;
-  }
-}
-
-@media only screen and (min-height: 801px) and (max-height: 850px) {
-  .modal-text {
-    padding-top: 190px;
-  }
-
-  .form__special {
-    padding-bottom: 60px;
-  }
-
-  .modal {
-    overflow-y: auto;
-    max-height: 100vh;
-  }
-}
-
-@media only screen and (min-height: 851px) and (max-height: 950px) {
-  .modal-text {
-    padding-top: 180px;
-  }
-
-  .modal {
-    padding-bottom: 130px;
-    overflow-y: auto;
-    max-height: 100vh;
-  }
-
-  .form__special {
-    padding-bottom: 90px;
-  }
-}
-
-@media only screen and (min-height: 951px) and (max-height: 1050px) {
-  .modal-text {
-    padding-top: 180px;
-  }
-
-  .modal {
-    padding-bottom: 120px;
-    overflow-y: auto;
-    max-height: 100vh;
-  }
-
-  .form__special {
-    padding-bottom: 80px;
-  }
-}
-
-@media only screen and (min-height: 1051px) and (max-height: 1350px) {
-  .modal-text {
-    padding-top: 0px;
-    margin-top: -50px;
-  }
-
-  .modal {
-    padding-bottom: 120px;
-    max-height: 100vh;
-  }
-
-  .form__special {
-    padding-bottom: 80px;
-  }
-}
-
-@media only screen and (min-height: 651px) and (max-height: 700px) {
-  #modal-container .modal-background {
-    display: table-cell;
-    background-color: #F4F5F2 !important;
-    text-align: center;
-    background: #F4F5F2 !important;
   }
 }
 
@@ -5376,8 +4912,6 @@ a {
 .webp .blog__bg1{ background: url(../img/bg__1-icon.webp); }
 
 .webp .blog__bg2{ background: url(../img/17.webp); }
-
-.webp #modal-container::before{ background: url(../img/footer__bg.webp); }
 
 .webp .main_screen-bg1{ background: url(../img/17.webp); }
 
